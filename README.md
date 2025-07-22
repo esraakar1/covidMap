@@ -1,23 +1,32 @@
-# Gerekli kütüphanleler
+# 🌍 covidMap
 
-- @testing-library/jest-dom
-- @testing-library/react
-- @testing-library/user-event@14.0
-- axios
-- millify
-- react-simple-maps
-- react-router-dom
-- react-icons
-- tailwind-css
-- @reduxjs/toolkit
-- react-redux
-- redux-thunk
+**covidMap** is an interactive React project that visualizes global COVID-19 data on a world map. You can click on any country to view detailed statistics such as confirmed cases, deaths, and recoveries.
 
-# kaynaklar
+## 🔧 Technologies Used
 
-- Detay verileri için API: https://rapidapi.com/api-sports/api/covid-193/playground/apiendpoint_97f1d614-d52d-459a-bb34-be1211366b0c
+| Category       | Library / Technology                           |
+|----------------|-------------------------------------------------|
+| 🧩 UI          | `tailwind-css`, `react-icons`                  |
+| 🧪 Testing     | `@testing-library/react`, `@testing-library/jest-dom`, `@testing-library/user-event@14.0` |
+| ⚙️ State Mgmt  | `@reduxjs/toolkit`, `react-redux`, `redux-thunk` |
+| 🌐 Routing     | `react-router-dom`                             |
+| 🌍 Mapping     | `react-simple-maps`, `world-atlas` (GeoJSON)   |
+| 🌐 API         | `axios`, `RapidAPI`                            |
+| 🔢 Formatting  | `millify`                                      |
 
-- Toplam veriler için API: https://covid-19-statistics.p.rapidapi.com/regions
+---
 
-- GEO.JSON: https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json
-# covidMap
+## 📡 API Sources
+
+- **Detailed Statistics**:  
+  [`covid-193` API](https://rapidapi.com/api-sports/api/covid-193/playground/apiendpoint_97f1d614-d52d-459a-bb34-be1211366b0c)
+
+- **Global Region Data**:  
+  [`covid-19-statistics`](https://covid-19-statistics.p.rapidapi.com/regions)
+
+- **GeoJSON World Map**:  
+  [`countries-110m.json`](https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json)
+
+- gif
+- ![Uploading ezgif-5aff7abf1c7db8.gif…]()
+
