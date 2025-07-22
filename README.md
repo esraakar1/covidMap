@@ -28,5 +28,6 @@
   [`countries-110m.json`](https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json)
 
 - gif
-- ![Uploading ezgif-5aff7abf1c7db8.gif…]()
+
+![Uploading ezgif-556e85f3f97a3d.gif…]()
 
