@@ -7,9 +7,9 @@ import { mockData } from "../utils/constants";
 const mockStore = configureStore();
 
 test("store yüklenme durumundayken ekrana loader gelir", () => {
-    mockStore({isLoading: true, error: null, data: null})
+   const store = mockStore({isLoading: true, error: null, data: null})
     render( 
-    <Provider>
+    <Provider store={store}>
     <Content />
     </Provider>
     );

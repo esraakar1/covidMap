@@ -5,6 +5,7 @@ import configureStore from "redux-mock-store";
 import { thunk } from "redux-thunk";
 import { render, screen } from "@testing-library/react";
 import { mockData } from "../utils/constants";
+
 // redux kullanılan bileşenler için sahte store lar oluşturmamızı sağlayacak fonksiyonun kurulumunu yap
 const mockStore = configureStore([thunk]);
 // eğer componentin içerisinde bir sağlayıcıya bağlı fonsksiyon/element çağrılıyorsa test ederken de sağlayıcı ile sarmalamalıyız
@@ -19,6 +20,7 @@ it("store yüklenme durumundayken ekrana loader basılır", () => {
     </Provider>
   );
 });
+
 it("store yüklenme bittiğinde ekranda loader yoktur", () => {
   const store = mockStore({ isLoading: false, error: null, data: null });
   render(
