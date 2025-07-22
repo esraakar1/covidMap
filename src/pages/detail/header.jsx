@@ -4,7 +4,8 @@ import { MdKeyboardArrowLeft as Arrow } from 'react-icons/md';
 import HeaderLoader from '../../components/loader/header-loader';
 
 const Header = () => {
-    const { isLoading, data } = useSelector((store) => store);
+    const isLoading = useSelector((state) => state.isLoading);
+    const data = useSelector((state) => state.data);
 
   return (
     <div className='flex justify-between items-center'>
